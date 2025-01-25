@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  # ajouter une nouvelle route pour lister les tâches
   get "tasks", to: "tasks#index", as: :list
 
   get "tasks/new", to: "tasks#new", as: :new
